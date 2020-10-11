@@ -1,0 +1,327 @@
+{
+  "sample": "spmv_kernel",
+  "device": "TITAN RTX",
+  "platform_version": "CUDA driver 11010",
+  "device_vendor": "NVIDIA Corporation",
+  "device_type": "GPU",
+  "device_core_clock": "1770",
+  "device_compute_units": "72",
+  "device_extra_info": "SM 7.5",
+  "results": [
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.098,
+      "parameters": {"BLOCK_SIZE": 475,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.183,
+      "parameters": {"BLOCK_SIZE": 739,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.162,
+      "parameters": {"BLOCK_SIZE": 364,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.183,
+      "parameters": {"BLOCK_SIZE": 170,"PRECISION": 64,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.277,
+      "parameters": {"BLOCK_SIZE": 370,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.249,
+      "parameters": {"BLOCK_SIZE": 70,"PRECISION": 64,"FORMAT": 1,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.173,
+      "parameters": {"BLOCK_SIZE": 958,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.229,
+      "parameters": {"BLOCK_SIZE": 56,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.276,
+      "parameters": {"BLOCK_SIZE": 724,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.107,
+      "parameters": {"BLOCK_SIZE": 86,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.281,
+      "parameters": {"BLOCK_SIZE": 762,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.206,
+      "parameters": {"BLOCK_SIZE": 199,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.192,
+      "parameters": {"BLOCK_SIZE": 28,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.108,
+      "parameters": {"BLOCK_SIZE": 151,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.207,
+      "parameters": {"BLOCK_SIZE": 917,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.187,
+      "parameters": {"BLOCK_SIZE": 110,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.285,
+      "parameters": {"BLOCK_SIZE": 634,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.096,
+      "parameters": {"BLOCK_SIZE": 888,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.183,
+      "parameters": {"BLOCK_SIZE": 248,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.264,
+      "parameters": {"BLOCK_SIZE": 540,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.203,
+      "parameters": {"BLOCK_SIZE": 109,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.424,
+      "parameters": {"BLOCK_SIZE": 891,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.342,
+      "parameters": {"BLOCK_SIZE": 708,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.096,
+      "parameters": {"BLOCK_SIZE": 641,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.241,
+      "parameters": {"BLOCK_SIZE": 205,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.103,
+      "parameters": {"BLOCK_SIZE": 393,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.188,
+      "parameters": {"BLOCK_SIZE": 329,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.302,
+      "parameters": {"BLOCK_SIZE": 679,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.185,
+      "parameters": {"BLOCK_SIZE": 43,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.383,
+      "parameters": {"BLOCK_SIZE": 744,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.396,
+      "parameters": {"BLOCK_SIZE": 993,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.192,
+      "parameters": {"BLOCK_SIZE": 146,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.396,
+      "parameters": {"BLOCK_SIZE": 745,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.130,
+      "parameters": {"BLOCK_SIZE": 806,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.099,
+      "parameters": {"BLOCK_SIZE": 608,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.092,
+      "parameters": {"BLOCK_SIZE": 188,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.160,
+      "parameters": {"BLOCK_SIZE": 202,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.173,
+      "parameters": {"BLOCK_SIZE": 30,"PRECISION": 64,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.171,
+      "parameters": {"BLOCK_SIZE": 70,"PRECISION": 64,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.239,
+      "parameters": {"BLOCK_SIZE": 657,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.284,
+      "parameters": {"BLOCK_SIZE": 447,"PRECISION": 64,"FORMAT": 1,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.188,
+      "parameters": {"BLOCK_SIZE": 34,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.192,
+      "parameters": {"BLOCK_SIZE": 29,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.191,
+      "parameters": {"BLOCK_SIZE": 407,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.222,
+      "parameters": {"BLOCK_SIZE": 35,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.092,
+      "parameters": {"BLOCK_SIZE": 221,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.215,
+      "parameters": {"BLOCK_SIZE": 596,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.326,
+      "parameters": {"BLOCK_SIZE": 604,"PRECISION": 64,"FORMAT": 1,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.417,
+      "parameters": {"BLOCK_SIZE": 839,"PRECISION": 64,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.244,
+      "parameters": {"BLOCK_SIZE": 376,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.104,
+      "parameters": {"BLOCK_SIZE": 685,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.194,
+      "parameters": {"BLOCK_SIZE": 203,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.172,
+      "parameters": {"BLOCK_SIZE": 158,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.164,
+      "parameters": {"BLOCK_SIZE": 92,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.201,
+      "parameters": {"BLOCK_SIZE": 167,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.092,
+      "parameters": {"BLOCK_SIZE": 420,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.224,
+      "parameters": {"BLOCK_SIZE": 599,"PRECISION": 32,"FORMAT": 2,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.216,
+      "parameters": {"BLOCK_SIZE": 769,"PRECISION": 64,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.260,
+      "parameters": {"BLOCK_SIZE": 110,"PRECISION": 64,"FORMAT": 1,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.177,
+      "parameters": {"BLOCK_SIZE": 341,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.129,
+      "parameters": {"BLOCK_SIZE": 129,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 1,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.247,
+      "parameters": {"BLOCK_SIZE": 378,"PRECISION": 32,"FORMAT": 1,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    },
+    {
+      "kernel": "spmv_kernel",
+      "time": 0.188,
+      "parameters": {"BLOCK_SIZE": 262,"PRECISION": 32,"FORMAT": 0,"UNROLL_LOOP_1": 0,"UNROLL_LOOP_2": 0,"THREADS_PER_ROW": 1,"TEXTURE_MEMORY": 0}
+    }
+  ]
+}

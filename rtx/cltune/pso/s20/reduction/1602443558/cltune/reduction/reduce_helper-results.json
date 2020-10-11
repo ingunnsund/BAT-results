@@ -1,0 +1,52 @@
+{
+  "sample": "reduce_helper",
+  "device": "TITAN RTX",
+  "platform_version": "CUDA driver 11010",
+  "device_vendor": "NVIDIA Corporation",
+  "device_type": "GPU",
+  "device_core_clock": "1770",
+  "device_compute_units": "72",
+  "device_extra_info": "SM 7.5",
+  "results": [
+    {
+      "kernel": "reduce_helper",
+      "time": 168.375,
+      "parameters": {"BLOCK_SIZE": 4,"GRID_SIZE": 16,"PRECISION": 32,"LOOP_UNROLL_REDUCE_1": 0,"LOOP_UNROLL_REDUCE_2": 1,"TEXTURE_MEMORY": 0,"KERNEL_SHARED_MEMORY_SIZE": 1}
+    },
+    {
+      "kernel": "reduce_helper",
+      "time": 19.744,
+      "parameters": {"BLOCK_SIZE": 128,"GRID_SIZE": 2,"PRECISION": 32,"LOOP_UNROLL_REDUCE_1": 0,"LOOP_UNROLL_REDUCE_2": 1,"TEXTURE_MEMORY": 0,"KERNEL_SHARED_MEMORY_SIZE": 1}
+    },
+    {
+      "kernel": "reduce_helper",
+      "time": 355.082,
+      "parameters": {"BLOCK_SIZE": 4,"GRID_SIZE": 2,"PRECISION": 64,"LOOP_UNROLL_REDUCE_1": 1,"LOOP_UNROLL_REDUCE_2": 1,"TEXTURE_MEMORY": 0,"KERNEL_SHARED_MEMORY_SIZE": 1}
+    },
+    {
+      "kernel": "reduce_helper",
+      "time": 5.632,
+      "parameters": {"BLOCK_SIZE": 8,"GRID_SIZE": 256,"PRECISION": 64,"LOOP_UNROLL_REDUCE_1": 0,"LOOP_UNROLL_REDUCE_2": 1,"TEXTURE_MEMORY": 0,"KERNEL_SHARED_MEMORY_SIZE": 1}
+    },
+    {
+      "kernel": "reduce_helper",
+      "time": 507.942,
+      "parameters": {"BLOCK_SIZE": 1,"GRID_SIZE": 2,"PRECISION": 32,"LOOP_UNROLL_REDUCE_1": 1,"LOOP_UNROLL_REDUCE_2": 1,"TEXTURE_MEMORY": 0,"KERNEL_SHARED_MEMORY_SIZE": 1}
+    },
+    {
+      "kernel": "reduce_helper",
+      "time": 3.042,
+      "parameters": {"BLOCK_SIZE": 2,"GRID_SIZE": 512,"PRECISION": 64,"LOOP_UNROLL_REDUCE_1": 0,"LOOP_UNROLL_REDUCE_2": 0,"TEXTURE_MEMORY": 0,"KERNEL_SHARED_MEMORY_SIZE": 1}
+    },
+    {
+      "kernel": "reduce_helper",
+      "time": 3.044,
+      "parameters": {"BLOCK_SIZE": 2,"GRID_SIZE": 512,"PRECISION": 64,"LOOP_UNROLL_REDUCE_1": 1,"LOOP_UNROLL_REDUCE_2": 1,"TEXTURE_MEMORY": 0,"KERNEL_SHARED_MEMORY_SIZE": 1}
+    },
+    {
+      "kernel": "reduce_helper",
+      "time": 22.486,
+      "parameters": {"BLOCK_SIZE": 64,"GRID_SIZE": 8,"PRECISION": 64,"LOOP_UNROLL_REDUCE_1": 0,"LOOP_UNROLL_REDUCE_2": 0,"TEXTURE_MEMORY": 0,"KERNEL_SHARED_MEMORY_SIZE": 1}
+    }
+  ]
+}
