@@ -1,0 +1,557 @@
+[
+    {
+        "parameters": {
+            "BLOCK_SIZE": 16,
+            "GRID_SIZE": 8,
+            "PRECISION": 64,
+            "UNROLL_LOOP_1": 1,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "OPTIMIZATION_LEVEL_HOST": 0,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1
+        },
+        "time": 44.4900586605072
+    },
+    {
+        "parameters": {
+            "USE_FAST_MATH": 0,
+            "UNROLL_LOOP_2": 0,
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "GRID_SIZE": 8,
+            "MAX_REGISTERS": 40,
+            "BLOCK_SIZE": 64,
+            "PRECISION": 64,
+            "GPUS": 1,
+            "UNROLL_LOOP_1": 0,
+            "OPTIMIZATION_LEVEL_DEVICE": 2
+        },
+        "time": 15.157230138778687
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": -1,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 3,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.5154478549957275
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 128,
+            "MAX_REGISTERS": 40,
+            "GPUS": 1,
+            "GRID_SIZE": 4,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 22.977060317993164
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 0,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 40,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 0,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 24.682738304138184
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": -1,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 3,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.539431571960449
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": -1,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.506881475448608
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": -1,
+            "GPUS": 1,
+            "GRID_SIZE": 16,
+            "OPTIMIZATION_LEVEL_DEVICE": 3,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 8.092023134231567
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": -1,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 7.082446098327637
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 0,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": -1,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 7.969286918640137
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 100,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.355519771575928
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": -1,
+            "GPUS": 1,
+            "GRID_SIZE": 16,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 8.074488639831543
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 100,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 1,
+            "PRECISION": 64
+        },
+        "time": 4.365624666213989
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 100,
+            "GPUS": 1,
+            "GRID_SIZE": 8,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 14.495794773101807
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 100,
+            "GPUS": 1,
+            "GRID_SIZE": 16,
+            "OPTIMIZATION_LEVEL_DEVICE": 0,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 29.740432739257812
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.180586099624634
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.887638568878174
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 100,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.354705095291138
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.156755685806274
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 2,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 64
+        },
+        "time": 4.189059734344482
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 256,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 3.393657922744751
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 256,
+            "MAX_REGISTERS": 60,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 3.3714096546173096
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 2.5618951320648193
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 0,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 9.593165397644043
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 64,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 1,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 232.8746633529663
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 3,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 256,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 32,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 3.3571572303771973
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 256,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 1.5259714126586914
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 256,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 1.5362069606781006
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 256,
+            "OPTIMIZATION_LEVEL_DEVICE": 0,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 1.66943359375
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": -1,
+            "GPUS": 1,
+            "GRID_SIZE": 256,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 1.5618057250976562
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 4,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 1,
+            "PRECISION": 32
+        },
+        "time": 11.517868757247925
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 256,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 256,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 1.5678484439849854
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 64,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 1.8401157855987549
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 256,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 1,
+            "PRECISION": 32
+        },
+        "time": 1.5294294357299805
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 40,
+            "GPUS": 1,
+            "GRID_SIZE": 256,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 1.5262069702148438
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 1,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 1,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 2,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 25.68396234512329
+    },
+    {
+        "parameters": {
+            "OPTIMIZATION_LEVEL_HOST": 2,
+            "UNROLL_LOOP_2": 1,
+            "USE_FAST_MATH": 0,
+            "BLOCK_SIZE": 512,
+            "MAX_REGISTERS": 20,
+            "GPUS": 1,
+            "GRID_SIZE": 256,
+            "OPTIMIZATION_LEVEL_DEVICE": 1,
+            "UNROLL_LOOP_1": 0,
+            "PRECISION": 32
+        },
+        "time": 1.4860670566558838
+    }
+]
